@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace Ahmad_Saleem_and_Company.App
+{
+    public partial class UpdateRecovery : Form
+    {
+        public UpdateRecovery()
+        {
+            InitializeComponent();
+        }
+
+        private void UpdateRecovery_Load(object sender, EventArgs e)
+        {
+            
+        }
+    }
+}

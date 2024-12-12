@@ -1,0 +1,1212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductnamecombobox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Product id:</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 188</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="SaleinvoiceCustomeridtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 36</value>
+  </data>
+  <data name="&gt;&gt;NewSaleinvoiceradiobtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicevochernotxtbox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalshowtxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceTotalshowtxtbox</value>
+  </data>
+  <data name="&gt;&gt;label16.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="SaleinvoiceTotalGariafeeshowtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 109</value>
+  </data>
+  <data name="&gt;&gt;NewSaleinvoiceradiobtn.Name" xml:space="preserve">
+    <value>NewSaleinvoiceradiobtn</value>
+  </data>
+  <data name="label16.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="SaleinvoiceGariaFeetxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceGariaFeetxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="SaleinvoiceCustomerphonenotxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatagridview.Parent" xml:space="preserve">
+    <value>siticonePanel2</value>
+  </data>
+  <data name="Saleinvoicesearchtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtytxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceQtytxtbox</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 18</value>
+  </data>
+  <data name="SaleinvoiceRateshowtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="SaleinvoiceCustomeridtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatepicker.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="Customernamecombobox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Saleinvoiceproductnamecombobox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 251</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="UpdateSaleInvoicebtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 403</value>
+  </data>
+  <data name="Saleinvoicesearchtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="siticonePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1012, 464</value>
+  </data>
+  <data name="SaleinvoiceRatetxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="SaleinvoiceBalancetxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 36</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="siticonePanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel3.Name" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="SaleinvoiceDatagridview.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="SaleinvoiceGariaFeetxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 57</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicevochernotxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatepicker.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalGariafeeshowtxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceTotalGariafeeshowtxtbox</value>
+  </data>
+  <data name="UpdateSaleInvoicebtn.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 269</value>
+  </data>
+  <data name="SaleinvoiceRatetxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 36</value>
+  </data>
+  <data name="Saleinvoiceproductnamecombobox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="NewSaleinvoiceradiobtn.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="UpdateSaleInvoicebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 45</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1924, 954</value>
+  </data>
+  <data name="Saleinvoicesearchtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="AddSaleinvoicebtn.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtyshowtxtbox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Garia Fee</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SaleinvoiceRatetxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRatetxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceRatetxtbox</value>
+  </data>
+  <data name="Saleinvoiceproductidtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductidtxtbox.Name" xml:space="preserve">
+    <value>Saleinvoiceproductidtxtbox</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 18</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomerphonenotxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceCustomerphonenotxtbox</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Name" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="SaleinvoiceQtytxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 36</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtytxtbox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductnamecombobox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneComboBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalshowtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductnamecombobox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 24</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRateshowtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="Saleinvoicevochernotxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="SaleinvoiceDatagridview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 71</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalGariafeeshowtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleInvoicebtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtytxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="NewSaleinvoiceradiobtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 71</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomeridtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 18</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="SaleinvoiceQtyshowtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 36</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 34</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalshowtxtbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 24</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Sale Invoice</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleInvoicebtn.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="SaleinvoiceQtyshowtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="Customernamecombobox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 16</value>
+  </data>
+  <data name="siticonePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>639, 36</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;label16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label15.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Voucher no:</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Customernamecombobox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;label15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 139</value>
+  </data>
+  <data name="SaleinvoiceCustomeridtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="siticonePanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>535, 269</value>
+  </data>
+  <data name="SaleinvoiceRateshowtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 36</value>
+  </data>
+  <data name="label16.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="label12.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 24</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomeridtxtbox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceGariaFeetxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceGariaFeetxtbox</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalGariafeeshowtxtbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="SaleinvoiceGariaFeetxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 24</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtytxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;AddSaleinvoicebtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 25</value>
+  </data>
+  <data name="SaleinvoiceDatepicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleinvoiceradiobtn.Name" xml:space="preserve">
+    <value>UpdateSaleinvoiceradiobtn</value>
+  </data>
+  <data name="UpdateSaleinvoiceradiobtn.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 84</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicevochernotxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicesearchtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRateshowtxtbox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Customer phone no:</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 25</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SaleinvoiceRateshowtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 57</value>
+  </data>
+  <data name="AddSaleinvoicebtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceGariaFeetxtbox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 31</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 18</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 206</value>
+  </data>
+  <data name="SaleinvoiceTotalGariafeeshowtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label15.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 18</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 140</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRateshowtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="SaleinvoiceGariaFeetxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 36</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 18</value>
+  </data>
+  <data name="&gt;&gt;AddSaleinvoicebtn.Name" xml:space="preserve">
+    <value>AddSaleinvoicebtn</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="SaleinvoiceTotalshowtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;AddSaleinvoicebtn.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="SaleinvoiceQtytxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomeridtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;label16.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="SaleinvoiceBalancetxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="SaleinvoiceQtytxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRatetxtbox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Bold</value>
+  </data>
+  <data name="SaleinvoiceQtyshowtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 57</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicesearchtxtbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="AddSaleinvoicebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 45</value>
+  </data>
+  <data name="NewSaleinvoiceradiobtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 18</value>
+  </data>
+  <data name="Customernamecombobox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="SaleinvoiceCustomerphonenotxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductidtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceBalancetxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatagridview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductnamecombobox.Name" xml:space="preserve">
+    <value>Saleinvoiceproductnamecombobox</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Saleinvoiceproductnamecombobox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 18</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel3.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="SaleinvoiceQtytxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 170</value>
+  </data>
+  <data name="SaleinvoiceCustomerphonenotxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalGariafeeshowtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductidtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Customer id:</value>
+  </data>
+  <data name="siticonePanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>752, 954</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SaleInvoice</value>
+  </data>
+  <data name="SaleinvoiceBalancetxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="siticonePanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1011, 374</value>
+  </data>
+  <data name="NewSaleinvoiceradiobtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Saleinvoiceproductidtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 311</value>
+  </data>
+  <data name="label13.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtyshowtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="SaleinvoiceDatagridview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>723, 871</value>
+  </data>
+  <data name="&gt;&gt;NewSaleinvoiceradiobtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Saleinvoicevochernotxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="SaleinvoiceTotalshowtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicesearchtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel2</value>
+  </data>
+  <data name="SaleinvoiceTotalshowtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 124</value>
+  </data>
+  <data name="SaleinvoiceTotalGariafeeshowtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 36</value>
+  </data>
+  <data name="&gt;&gt;Customernamecombobox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneComboBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="SaleinvoiceCustomerphonenotxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 91</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="SaleinvoiceQtyshowtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceBalancetxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRatetxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 18</value>
+  </data>
+  <data name="Saleinvoicevochernotxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 36</value>
+  </data>
+  <data name="Saleinvoiceproductidtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceTotalshowtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceBalancetxtbox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label15.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomerphonenotxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="Saleinvoiceproductnamecombobox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomerphonenotxtbox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatagridview.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneDataGridView, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRateshowtxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceRateshowtxtbox</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleInvoicebtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="UpdateSaleInvoicebtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceBalancetxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceBalancetxtbox</value>
+  </data>
+  <data name="Saleinvoicesearchtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>657, 36</value>
+  </data>
+  <data name="UpdateSaleinvoiceradiobtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, 71</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 18</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Rate</value>
+  </data>
+  <data name="SaleinvoiceDatagridview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleinvoiceradiobtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneRadioButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 329</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.Name" xml:space="preserve">
+    <value>siticonePanel2</value>
+  </data>
+  <data name="label15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatepicker.Name" xml:space="preserve">
+    <value>SaleinvoiceDatepicker</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomerphonenotxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="siticonePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="SaleinvoiceTotalshowtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 59</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Product name:</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Qty</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;NewSaleinvoiceradiobtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneRadioButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="SaleinvoiceCustomeridtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 122</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Customer Name:</value>
+  </data>
+  <data name="label11.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 18</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleInvoicebtn.Name" xml:space="preserve">
+    <value>UpdateSaleInvoicebtn</value>
+  </data>
+  <data name="AddSaleinvoicebtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>855, 403</value>
+  </data>
+  <data name="&gt;&gt;label16.Name" xml:space="preserve">
+    <value>label16</value>
+  </data>
+  <data name="SaleinvoiceDatagridview.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SaleinvoiceDatepicker.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Rate:</value>
+  </data>
+  <data name="SaleinvoiceBalancetxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 188</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtyshowtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;AddSaleinvoicebtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="UpdateSaleinvoiceradiobtn.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaleinvoiceDatepicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>728, 25</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceGariaFeetxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicesearchtxtbox.Name" xml:space="preserve">
+    <value>Saleinvoicesearchtxtbox</value>
+  </data>
+  <data name="SaleinvoiceTotalGariafeeshowtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 57</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleinvoiceradiobtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Customernamecombobox.Name" xml:space="preserve">
+    <value>Customernamecombobox</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NewSaleinvoiceradiobtn.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="siticonePanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1172, 0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 18</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 18</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatagridview.Name" xml:space="preserve">
+    <value>SaleinvoiceDatagridview</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="AddSaleinvoicebtn.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoiceproductidtxtbox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="siticonePanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;Saleinvoicevochernotxtbox.Name" xml:space="preserve">
+    <value>Saleinvoicevochernotxtbox</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Customernamecombobox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>siticonePanel3</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceCustomeridtxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceCustomeridtxtbox</value>
+  </data>
+  <data name="&gt;&gt;label15.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceRatetxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="siticonePanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 568</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Total Garia Fee</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;UpdateSaleinvoiceradiobtn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceQtyshowtxtbox.Name" xml:space="preserve">
+    <value>SaleinvoiceQtyshowtxtbox</value>
+  </data>
+  <data name="SaleinvoiceRateshowtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Sale Invoice</value>
+  </data>
+  <data name="label14.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;Customernamecombobox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpdateSaleinvoiceradiobtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="UpdateSaleinvoiceradiobtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Customernamecombobox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 18</value>
+  </data>
+  <data name="Saleinvoiceproductidtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 36</value>
+  </data>
+  <data name="&gt;&gt;label15.Name" xml:space="preserve">
+    <value>label15</value>
+  </data>
+  <data name="Saleinvoicevochernotxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 66</value>
+  </data>
+  <data name="Saleinvoiceproductnamecombobox.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="UpdateSaleInvoicebtn.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;SaleinvoiceDatepicker.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="SaleinvoiceDatepicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 36</value>
+  </data>
+  <data name="SaleinvoiceRatetxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>740, 251</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

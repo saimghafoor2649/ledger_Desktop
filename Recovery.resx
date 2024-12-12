@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1587, 761</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label10.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="RecoveryProductnametxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;RecoveryCustomernamecombobox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>667, 76</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 18</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Recovery</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Recoverycustomeridtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 196</value>
+  </data>
+  <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Recoveryvouchernotxtbox.Name" xml:space="preserve">
+    <value>Recoveryvouchernotxtbox</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Recoverybalancetxtboc.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;RecoveryProductnametxtbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Recoverysearchtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;Recoverybalancetxtboc.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Product name:</value>
+  </data>
+  <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 232</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdateradiobtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="RecoveryDatepicker.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="Recoverynewradiobtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 22</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Name" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="RecoveryDatepicker.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="RecoveryAmounttxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAmounttxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="Recoveryvouchernotxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="RecoveryUpdateradiobtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="siticonePanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 761</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Narration/Details:</value>
+  </data>
+  <data name="label10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RecoveryUpdatebtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 45</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="label9.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Recoverynewradiobtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 383</value>
+  </data>
+  <data name="&gt;&gt;Recoverynewradiobtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneRadioButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDetailstxtbox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;label8.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomeridtxtbox.Name" xml:space="preserve">
+    <value>Recoverycustomeridtxtbox</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAmounttxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Customer Id:</value>
+  </data>
+  <data name="RecoveryUpdatebtn.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomerphonenotxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Recoverysearchtxtbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RecoveryProductnametxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Recovery</value>
+  </data>
+  <data name="&gt;&gt;Recoveryvouchernotxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Customer Name:</value>
+  </data>
+  <data name="Recoveryvouchernotxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 36</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Balance:</value>
+  </data>
+  <data name="RecoveryCustomernamecombobox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="label6.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 278</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label8.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 309</value>
+  </data>
+  <data name="&gt;&gt;label10.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Recoverycustomeridtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 36</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>511, 71</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Date:</value>
+  </data>
+  <data name="siticonePanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 129</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAmounttxtbox.Name" xml:space="preserve">
+    <value>RecoveryAmounttxtbox</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomerphonenotxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Customer Phone no:</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Amount:</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="Recoverynewradiobtn.Text" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAmounttxtbox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="label8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="siticonePanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdatebtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="RecoveryDatagridview.RowHeadersWidth" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticonePanel, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomeridtxtbox.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 31</value>
+  </data>
+  <data name="RecoveryAmounttxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatagridview.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneDataGridView, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="Recoverycustomeridtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="RecoveryDatagridview.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatagridview.Parent" xml:space="preserve">
+    <value>siticonePanel2</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Recovery</value>
+  </data>
+  <data name="&gt;&gt;label8.Name" xml:space="preserve">
+    <value>label8</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="RecoveryAmounttxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 130</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAddbtn.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomerphonenotxtbox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Recoveryvouchernotxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="RecoveryDetailstxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 373</value>
+  </data>
+  <data name="Recoverynewradiobtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label5.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="Recoveryvouchernotxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 71</value>
+  </data>
+  <data name="Recoverybalancetxtboc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 130</value>
+  </data>
+  <data name="RecoveryDetailstxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 36</value>
+  </data>
+  <data name="RecoveryDatepicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 36</value>
+  </data>
+  <data name="&gt;&gt;RecoveryCustomernamecombobox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdatebtn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="siticonePanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>957, 561</value>
+  </data>
+  <data name="RecoveryUpdateradiobtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RecoveryAddbtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>788, 499</value>
+  </data>
+  <data name="Recoverynewradiobtn.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="RecoveryAddbtn.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="Recoveryvouchernotxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Recoverynewradiobtn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RecoveryUpdateradiobtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdateradiobtn.Name" xml:space="preserve">
+    <value>RecoveryUpdateradiobtn</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="RecoveryDatagridview.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 102</value>
+  </data>
+  <data name="&gt;&gt;RecoveryCustomernamecombobox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneComboBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label9.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdatebtn.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="siticonePanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RecoveryUpdatebtn.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="label8.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RecoveryCustomernamecombobox.ItemHeight" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="Recoverycustomerphonenotxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;RecoveryCustomernamecombobox.Name" xml:space="preserve">
+    <value>RecoveryCustomernamecombobox</value>
+  </data>
+  <data name="RecoveryUpdatebtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="Recoverysearchtxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 34</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 18</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 148</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 18</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label7.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="RecoveryDatagridview.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RecoveryCustomernamecombobox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 260</value>
+  </data>
+  <data name="&gt;&gt;RecoveryProductnametxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;Recoverybalancetxtboc.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="RecoveryProductnametxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="RecoveryCustomernamecombobox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 36</value>
+  </data>
+  <data name="&gt;&gt;Recoverysearchtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel2</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>489, 148</value>
+  </data>
+  <data name="label6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 18</value>
+  </data>
+  <data name="RecoveryAddbtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 45</value>
+  </data>
+  <data name="siticonePanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1003, 0</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Recoverycustomerphonenotxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 36</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 214</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Recoverysearchtxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="Recoverysearchtxtbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 36</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdateradiobtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneRadioButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomeridtxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RecoveryProductnametxtbox.Name" xml:space="preserve">
+    <value>RecoveryProductnametxtbox</value>
+  </data>
+  <data name="&gt;&gt;Recoveryvouchernotxtbox.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatepicker.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneDateTimePicker, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDetailstxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="Recoverycustomerphonenotxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 214</value>
+  </data>
+  <data name="RecoveryAmounttxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;label10.Name" xml:space="preserve">
+    <value>label10</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="RecoveryDatepicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>659, 53</value>
+  </data>
+  <data name="Recoverybalancetxtboc.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Voucher no:</value>
+  </data>
+  <data name="RecoveryDetailstxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdateradiobtn.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label7.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Recoverycustomeridtxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label10.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;label9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RecoveryProductnametxtbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>715, 291</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.Name" xml:space="preserve">
+    <value>siticonePanel2</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatagridview.Name" xml:space="preserve">
+    <value>RecoveryDatagridview</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomerphonenotxtbox.Name" xml:space="preserve">
+    <value>Recoverycustomerphonenotxtbox</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatepicker.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 18</value>
+  </data>
+  <data name="RecoveryUpdatebtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>597, 499</value>
+  </data>
+  <data name="Recoverybalancetxtboc.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="&gt;&gt;siticonePanel2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatepicker.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 18</value>
+  </data>
+  <data name="RecoveryAddbtn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="siticonePanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Recoverybalancetxtboc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 36</value>
+  </data>
+  <data name="&gt;&gt;Recoverynewradiobtn.Name" xml:space="preserve">
+    <value>Recoverynewradiobtn</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt, style=Bold</value>
+  </data>
+  <data name="RecoveryUpdateradiobtn.Text" xml:space="preserve">
+    <value>Update</value>
+  </data>
+  <data name="label9.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="RecoveryAddbtn.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;Recoverysearchtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="RecoveryCustomernamecombobox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 10pt</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatepicker.Name" xml:space="preserve">
+    <value>RecoveryDatepicker</value>
+  </data>
+  <data name="&gt;&gt;Recoverynewradiobtn.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 18</value>
+  </data>
+  <data name="Recoverycustomerphonenotxtbox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAddbtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="RecoveryDatagridview.Size" type="System.Drawing.Size, System.Drawing">
+    <value>554, 647</value>
+  </data>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9pt, style=Bold</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RecoveryProductnametxtbox.Parent" xml:space="preserve">
+    <value>siticonePanel1</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDetailstxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDetailstxtbox.Name" xml:space="preserve">
+    <value>RecoveryDetailstxtbox</value>
+  </data>
+  <data name="&gt;&gt;Recoverycustomeridtxtbox.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneTextBox, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="&gt;&gt;RecoveryDatagridview.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAddbtn.Name" xml:space="preserve">
+    <value>RecoveryAddbtn</value>
+  </data>
+  <data name="&gt;&gt;Recoverybalancetxtboc.Name" xml:space="preserve">
+    <value>Recoverybalancetxtboc</value>
+  </data>
+  <data name="&gt;&gt;label8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 18</value>
+  </data>
+  <data name="&gt;&gt;RecoveryUpdatebtn.Name" xml:space="preserve">
+    <value>RecoveryUpdatebtn</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 80</value>
+  </data>
+  <data name="&gt;&gt;RecoveryAddbtn.Type" xml:space="preserve">
+    <value>Siticone.Desktop.UI.WinForms.SiticoneButton, Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4</value>
+  </data>
+  <data name="RecoveryDetailstxtbox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label9.Name" xml:space="preserve">
+    <value>label9</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 18</value>
+  </data>
+  <data name="RecoveryUpdateradiobtn.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;Recoverysearchtxtbox.Name" xml:space="preserve">
+    <value>Recoverysearchtxtbox</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
